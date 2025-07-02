@@ -7,7 +7,7 @@ public virtual class TriggerHandler {
         private  enum TriggerContext {
             BEFORE_INSERT, BEFORE_UPDATE, BEFORE_DELETE,
             AFTER_INSERT, AFTER_UPDATE, AFTER_DELETE,
-            AFTER_UNDELETE 
+            AFTER_UNDELETE
         }
         public TriggerHandler() {
             System.debug('Debug 4: Trigger handler Constructor is running...');
