@@ -33,7 +33,7 @@ public virtual class TriggerHandler {
         
 
         public void run(){
-            System.debug('Debug 3: Run Method of Trigger Handler is running...');
+            System.debug('Debug 3 : Run Method of Trigger Handler is running...');
             if(this.context == TriggerContext.BEFORE_INSERT){
                 this.beforeInsert();
             }
